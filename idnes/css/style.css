@@ -1,0 +1,84 @@
+h1,h4,p,ul,ol,li,body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+}
+.clearfix:after, .clearfix:before {
+    content: "";
+    display: block;
+    clear: both;
+}
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+a {
+    color: #13375E;
+    text-decoration: none;
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #B9151C;
+}
+i {
+    color: #B9151C;
+}
+p {
+    font-size: 15px;
+}
+.title {
+    margin-left: 10px;
+}
+.banner {
+    width: 300px;
+    height: 600px;
+    margin: auto;
+    border: 1px solid black;
+}
+.one {
+    margin-bottom: 25px;
+}
+.leftFirst, .rightSecond{
+    float: left;
+    width: 122px;
+    margin: 15px 0;
+}
+.leftFirst p, .rightSecond p{
+    margin: 8.5px 5px 0;
+}
+.leftFirst i, .rightSecond i{
+    margin-right: 3px;
+}
+.rightFirst, .leftSecond {
+    float: right;
+    width: 176px;
+    margin: 15px 0;
+}
+.leftSecond{
+    padding-top: 23px;
+}
+.price {
+    background-color: #B9151C;
+    line-height: 26px;
+}
+.price p{
+    float:left;
+    width: 90px;
+    padding: 21px 0px 0px 7px;
+}
+.price span{
+    float: right;
+    font-size: 50px;
+    color: #fff;
+    padding: 0 20px;
+    margin: 20px 0;
+}
+.leftSecond {
+    float: left;
+    width: 150px;;
+}
+.rightSecond {
+    float: right;
+    width: 100px;;
+}
